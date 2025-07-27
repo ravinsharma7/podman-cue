@@ -110,8 +110,8 @@ I'm invested in podman tooling and am balls deep into it. Docker is cool as alwa
 
 # Goal and Non-goals
 
-This project does not intent to be a replacement of 'docker-compose` or `podman-compose`, but only integrate with the process.  
-Integration is always a goal.  
+This project does not intent to be a replacement of `docker-compose` or `podman-compose`, but only integrates with the process.  
+Integration with existing tooling is always a goal of the project.  
 It will be much closer as portainer alternative but with much better flexibility and more extensibility. Also it should be usable without knowing a whole of concept to use it, everything you know about podman container should be enough to get started.  
 
 # How to use
