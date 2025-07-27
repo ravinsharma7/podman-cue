@@ -108,9 +108,11 @@ containers: {
 
 I'm invested in podman tooling and am balls deep into it. Docker is cool as always, but lacks some flexibility I get from podman, like when using with systemd and k8s.
 
-# Non-goals
+# Goal and Non-goals
 
-Cue does not intent to be a replacement of 'docker-compose` or `podman-compose`, but only integrate with the process. It will be much closer as portainer alternative but with much better flexibility and more extensibility. Also it should be usable without knowing a whole of concept to use it, everything you know about podman container should be enough to get started.
+This project does not intent to be a replacement of 'docker-compose` or `podman-compose`, but only integrate with the process.  
+Integration is always a goal.  
+It will be much closer as portainer alternative but with much better flexibility and more extensibility. Also it should be usable without knowing a whole of concept to use it, everything you know about podman container should be enough to get started.  
 
 # How to use
 
