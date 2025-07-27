@@ -83,7 +83,7 @@ containers: {
     }
   },
   {
-    postgres: {
+    postgres: ctr.#ContainerSpec & {
       image: "docker.io/library/postgres"
       tag:   "16-alpine"
       name: "qs_postgres"
