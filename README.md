@@ -104,7 +104,7 @@ containers: {
 }
 ```
 
-# Why not just docker + docker composer + docker swarm
+# Why not just docker + docker compose + docker swarm
 
 I'm invested in podman tooling and am balls deep into it. Docker is cool as always, but lacks some flexibility I get from podman, like when using with systemd and k8s.
 
