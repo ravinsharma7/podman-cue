@@ -120,3 +120,7 @@ Also it should be usable without knowing a whole bunch of concept to use it, eve
 TBD.   
 Still very early stage, things will break and I'm trying to flesh out some idea and workflow based on my own usage. Still figuring out cuelang itself. One problem I face in cuelang right now are error messages, customizing it is not the easiest, I can use cue as a library in go if I really need to customize further.  
 If you want to learn more about cuelang, here is the site:  https://cuelang.org/  
+
+Two downstream projects are created to support the development of this project.
+[cuerun](https://github.com/ravinsharma7/cuerun)
+[cuesplit](https://github.com/ravinsharma7/cuesplit/tree/main)
