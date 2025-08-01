@@ -6,7 +6,8 @@ Currently to work with podman containers you can do the following:
 1. running podman command and piece them up using bash scripts.
 2. use `podman kube play`
 3. use quadlet command to generate systemd service units to integrate with systemd
-4. use podman's docker compatibility and use docker compatibile tools.
+4. use ansible + "ansible podman collection"
+5. use podman's docker compatibility and use docker compatibile tools.
  
 ### `podman` command + bash script
 - The OG way of GTD.
@@ -26,6 +27,13 @@ Currently to work with podman containers you can do the following:
 - Very easy to generate service units for systemd that works with podman containers
 - Sometimes can be confusing because the docs doesn't show word by word diff between a systemd service unit file and a quadlet service unit.
 - no build-in linting and validation layer. `systemd-analyze` doesn't work with podman specific fields and value. There is a `dry-run` flag for podman if not mistaken, but I have not used much of it to know if there is parity issues.
+
+### `ansible` + "ansible podman collection"
+- you can see it here: https://docs.ansible.com/ansible/latest/collections/containers/podman/index.html#plugins-in-containers-podman
+- it is pretty extensive coverage of podman command
+- I and not sure of the actual parity between collection with podman version. I'm not sure if the command and forward compatibile or backward compatible.
+- ansible error will get mixed with podman container error adding a bit more confusion.
+- no build-in linting and validation layer. You could use Molecule to do dry-run but I don't know how reliable is those tests will be across version and production environment. Plus Molecule is opiniated and has its own ways of doing things.
 
 ### docker compatibility
 - There is nothing much to say on this.
