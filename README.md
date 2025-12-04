@@ -1,3 +1,5 @@
+# Suspending this project for while. There is another project that seem to be going in the same direction using cuelang too.
+
 # podman-cue
 Cue wrapper around podman functionality. Its a streamlined cue wrapper that works as a sane glue that connects container services in a unifed way. Minimal learning and concept to use it quickly.
 
